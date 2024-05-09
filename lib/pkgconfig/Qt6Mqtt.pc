@@ -1,0 +1,12 @@
+prefix=/QT/6.8.0/mingw_64
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 Mqtt
+Description: Qt Mqtt module
+Version: 6.8.0
+Libs: -L${libdir} -lQt6Mqtt
+Cflags: -I${includedir}/QtMqtt -I${includedir} -DQT_MQTT_LIB

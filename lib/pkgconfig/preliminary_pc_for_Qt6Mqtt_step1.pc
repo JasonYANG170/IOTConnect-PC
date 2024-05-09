@@ -1,0 +1,14 @@
+prefix=/QT/6.8.0/mingw_64
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+$<$<BOOL:>:mkspecsdir=${prefix}/mkspecs>
+$<1: >
+Name: Qt6 Mqtt
+Description: Qt Mqtt module
+Version: 6.8.0
+Libs: $<$<NOT:$<STREQUAL:$<TARGET_PROPERTY:Qt6::Mqtt,TYPE>,INTERFACE_LIBRARY>>:-L${libdir} -lQt6Mqtt> $<$<BOOL:loose_link_options-NOTFOUND>:$<JOIN:$<REMOVE_DUPLICATES:loose_link_options-NOTFOUND>, >> $<JOIN:$<REMOVE_DUPLICATES:>, >
+Cflags: $<$<BOOL:${includedir}/QtMqtt;${includedir}>:-I$<JOIN:$<REMOVE_DUPLICATES:${includedir}/QtMqtt;${includedir}>, -I>> $<$<BOOL:QT_MQTT_LIB>:-D$<JOIN:$<REMOVE_DUPLICATES:QT_MQTT_LIB>, -D>>
+Requires: $<JOIN:$<REMOVE_DUPLICATES:>, >
