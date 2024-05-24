@@ -6,8 +6,9 @@
 	<br>
     	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
   <br>
+<img src="https://github.com/JasonYANG170/IOTConnect-PC/assets/39414350/b591ba1e-a784-42e7-b5ca-2c36d0a66379">
 
-	
+<br>	
 这是一项基于C语言的物联网设备桌面控制终端
 
 <br>
@@ -35,6 +36,7 @@
   
 欢迎其他开发者对接我们的MQTT服务器
 
+![image](https://github.com/JasonYANG170/IOTConnect-PC/assets/39414350/caf70cdf-919b-46f8-8dda-41dcbce7d676)
 
 
 
