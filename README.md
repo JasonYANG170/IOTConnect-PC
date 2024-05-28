@@ -18,8 +18,8 @@
 ## 支持系统
 **Windows** Windows7-Windows11  
 **Linux**   🚧  
-[Android及HarmonyOS请点此处](https://github.com/JasonYANG170/IOT-ConnectAndroid)  
-[Web及Apple设备](https://github.com/JasonYANG170/IOT-ConnectWeb)
+[Android及HarmonyOS请点此处](https://github.com/JasonYANG170/IOTConnect-Android)  
+[Web及Apple设备](https://github.com/JasonYANG170/IOTConnect-Web)
 
 ## 功能
 - ✅ MQTT协议远程设备控制
