@@ -33,10 +33,15 @@
 - 🚧 KeyBox钥匙
 - 🚧 OnlineAdmin远控器
 - 🚧 AIChatBox智能助手
-  
+  ![image](https://github.com/JasonYANG170/IOTConnect-PC/assets/39414350/caf70cdf-919b-46f8-8dda-41dcbce7d676)
 欢迎其他开发者对接我们的MQTT服务器
+## 开源协议
+本项目遵循GPL2.0开源协议，使用本程序时请注明出处并进行版权声明  
+本项目完全支持个人爱好者的研究与学习，如果您有更好的建议，欢迎PR
 
-![image](https://github.com/JasonYANG170/IOTConnect-PC/assets/39414350/caf70cdf-919b-46f8-8dda-41dcbce7d676)
+## 荣誉  
+IOT万物互联桌面端软件著作权
+
 
 
 
